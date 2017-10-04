@@ -21,7 +21,7 @@ cd ~/azure
 rm -rf *
 
 # Copy /dist folder contents (our app)
-for entry in ~/repo/dist/*
+for entry in ~/repo/*
 do
   echo "$entry"
 done
