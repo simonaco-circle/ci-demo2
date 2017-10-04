@@ -21,6 +21,10 @@ cd ~/azure
 rm -rf *
 
 # Copy /dist folder contents (our application)
+for entry in ~/repo/dist/*
+do
+  echo "$entry"
+done
 cp -rf ~/repo/dist/* .
 
 git add -A
