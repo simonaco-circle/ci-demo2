@@ -20,7 +20,7 @@ cd ~/azure
 # delete local repository azure contents
 rm -rf *
 
-# Copy /dist folder contents (our application)
+# Copy /dist folder contents (our app)
 for entry in ~/repo/dist/*
 do
   echo "$entry"
