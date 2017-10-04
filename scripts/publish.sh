@@ -21,10 +21,10 @@ cd ~/azure
 rm -rf *
 
 # Copy /dist folder contents (our application)
-cp -rf ~/clone/dist/* .
+cp -rf ~/repo/dist/* .
 
 git add -A
-git commit --all --author "simonaco-cricle simona.cotin@microsoft.com" --message "bla ($CIRCLE_BUILD_NUM)"
+git commit --all --author "simonaco-cricle <$CI_COMMITTER_EMAIL>" --message "bla ($CIRCLE_BUILD_NUM)"
 
 # Push changes to Azure
 git push origin master
